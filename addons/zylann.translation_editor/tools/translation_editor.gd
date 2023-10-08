@@ -72,9 +72,9 @@ func _ready():
 		return
 	
 	# TODO these icons are blank when running as a game
-	_string_status_icons[STATUS_UNTRANSLATED] = get_icon("StatusError", "EditorIcons")
-	_string_status_icons[STATUS_PARTIALLY_TRANSLATED] = get_icon("StatusWarning", "EditorIcons")
-	_string_status_icons[STATUS_TRANSLATED] = get_icon("StatusSuccess", "EditorIcons")
+	_string_status_icons[STATUS_UNTRANSLATED] = get_theme_icon("StatusError", "EditorIcons")
+	_string_status_icons[STATUS_PARTIALLY_TRANSLATED] = get_theme_icon("StatusWarning", "EditorIcons")
+	_string_status_icons[STATUS_TRANSLATED] = get_theme_icon("StatusSuccess", "EditorIcons")
 	
 	_file_menu.get_popup().add_item("Open...", MENU_FILE_OPEN)
 	_file_menu.get_popup().add_item("Save", MENU_FILE_SAVE)
