@@ -45,7 +45,7 @@ func has_main_screen() -> bool:
 
 
 func get_plugin_name() -> String:
-	return "Localization"
+	return "Loc"
 
 
 func get_plugin_icon() -> Texture:
